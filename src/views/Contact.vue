@@ -7,9 +7,9 @@
 
     <div class="row">
       <div class="col-md-6 text-start">
-        <img src="../assets/megalodon.png" class="img-fluid rounded mb-4 shadow-sm" alt="Cat Image" style="width: 80%;">
+        <img src="../assets/megalodon.png" class="img-fluid rounded mb-4 shadow-sm" alt="Cat Image" style="width: 30%;">
         <br>
-        <img src="../assets/megalodon.png" class="img-fluid rounded shadow-sm" alt="Beach Image" style="width: 100%;">
+        <img src="../assets/megalodon.png" class="img-fluid rounded shadow-sm" alt="Beach Image" style="width: 30%;">
       </div>
 
       <div class="col-md-6 d-flex flex-column justify-content-center">
