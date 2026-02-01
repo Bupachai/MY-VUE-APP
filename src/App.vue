@@ -1,18 +1,13 @@
 <template>
   <div>
- 
-  
-<!--
-  <nav>
+  <!-- <nav> 
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link> |
-    <router-link to="/contact">Contact</router-link>
-      
+    <router-link to="/about">About</router-link>|
+    <router-link to="/Contact">Contact</router-link>
   </nav>
   -->
-
-  <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
-  <div class="container-fluid">
+  <nav class="navbar navbar-expand-lg "  style="background-color: #e3f2fd;" data-bs-theme="light">
+  <div class="container">
     <a class="navbar-brand" href="/">Navbar</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -26,7 +21,7 @@
           <a class="nav-link" href="/customer">Customer</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/contact">Contact</a>
+          <a class="nav-link" href="/Contact">Contact</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/type">Type</a>
@@ -34,15 +29,21 @@
         <li class="nav-item">
           <a class="nav-link" href="/employees">Employees</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/customer_crud">Customer_crud</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/employee_crud">Employee_crud</a>
+        </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Dropdown
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="/product">Product</a></li>
-            <li><a class="dropdown-item" href="/product_api">Product_api</a></li>
+            <li><a class="dropdown-item" href="/product">product</a></li>
+            <li><a class="dropdown-item" href="/product_api">product_api</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="/show_product">Show Product</a></li>
+            <li><a class="dropdown-item" href="/Show_product">Show_product</a></li>
           </ul>
         </li>
         <li class="nav-item">
@@ -56,9 +57,7 @@
     </div>
   </div>
 </nav>
-
   <router-view/>
-
   </div>
 </template>
 
@@ -67,14 +66,13 @@
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
+  
   color: #2c3e50;
 }
 
 nav {
   padding: 30px;
 }
-
 
 nav a {
   font-weight: bold;

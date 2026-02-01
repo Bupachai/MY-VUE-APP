@@ -60,9 +60,21 @@ const routes = [
     name: 'show_product',
    
     component: () => import('../views/Show_product.vue')
-  }
-]
+  },
+  {
+    path: '/Customer_crud',
+    name: 'Customer_crud',
 
+    component: () => import ('../views/Customer_crud.vue')
+  },
+  {
+    path: '/employee_crud',
+    name: 'employee_crud',
+
+    component: () => import ('../views/Employee_crud.vue')
+  }
+  
+]
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes
